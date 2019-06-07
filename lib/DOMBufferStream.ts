@@ -1,6 +1,6 @@
 /*jslint browser: true, devel: true, bitwise: false, debug: true, eqeq: false, es5: true, evil: false, forin: false, newcap: false, nomen: true, plusplus: true, regexp: false, unparam: false, sloppy: true, stupid: false, sub: false, todo: true, lets: true, white: true */
 
-export class DOMBufferStream {
+export default class DOMBufferStream {
     view;
     littleEndian;
 
